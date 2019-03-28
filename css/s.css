@@ -1,0 +1,165 @@
+
+        body{
+            margin:0px;
+            font-family: "Microsoft Yahei", sans-serif;
+            background-image: url(../images/back.jpg);
+        }
+        .box{
+            
+            width: 1440px;
+            height: 800px;
+            color:black;
+            position:relative;
+            overflow: hidden;
+
+        }
+        .box img{
+            margin-left:43%;
+        }
+        .title{
+            width: 500px;
+            height: 150px;
+            font-size: 50px;
+            text-align: center;
+            margin: 0px auto;
+            padding-top:120px;
+        }
+        .btn{
+            margin:100px auto 0px;
+            width: 900px;
+            height: 100px;
+            padding-top: 20px;
+        }
+        .btn input{
+            width: 100px;
+            height: 50px;
+            margin-right: 290px;
+            background: black;
+            color:white;
+            border-radius: 15px;
+            outline:none;
+            padding:0px;
+            border:1px solid white;
+        }
+        .btn .abn{
+            margin-right:0px;
+        }
+
+        .btn input:hover{
+            color:lightblue;
+        }
+        
+        .lucky{
+            position:absolute;
+            left:43%;
+            top:38%;
+            width: 200px;
+            height: 230px;
+            border:3px solid blue;
+            background: white;
+            display:none;
+            z-index: 3;
+        }
+
+        .yfTitle{
+            width: 200px;
+            height: 22px;
+            background: lightblue;
+        }
+        .yfT{
+            float:left;
+        }
+        .close{
+            float:right;
+            height: 22px;
+            background: red;
+            border-radius:11px;
+        }
+        .subBox{
+            text-align: center;
+        }
+        .subBox2{
+            text-align: center;
+        }
+        .mask{
+            background: darkgray;
+            width: 1440px;
+            height: 800px;
+            position:absolute;
+            left:0%;
+            top:0%;
+            z-index: 2;
+            opacity: 0.5;
+            display:none;
+        }
+
+         /* 点点滴滴 */
+         .pics{
+             width: 2500px;
+             height: 390px;
+             background:rgba(255,255,255,0);
+             position:absolute;
+             left:0px;
+             top:42px;
+             overflow:hidden;
+             display:none;
+         }
+
+         .ul{
+            display:flex;
+            width: 6000px;
+            margin-left:0px;
+            padding-left:0px;
+            position:absolute;
+            left:0px;
+         }
+         .pics img{
+             float:left;
+             margin-right:15px;
+             margin-left:0px;
+             align-self: center;
+             list-style: none;
+         }
+
+         .leftRight{
+             position: absolute;
+             left:40%;
+             top:72%;
+             width: 400px;
+             height: 50px;
+             display:none;
+         }
+
+         .leftRight input{
+             width: 80px;
+             height: 50px;
+             margin-right:20px;
+             border:2px solid black;
+             border-radius: 25px;
+             outline:none;
+             
+         }
+         .leftRight input:hover{
+             background: lightblue;
+         }
+
+         .apo{
+             width: 400px;
+             border-radius: 100px;
+             line-height: 300px;
+             margin-top:100px;
+             font-size: 100px;
+             position: absolute;
+             top:150px;
+             left:500px;
+         }
+         .apo:hover{
+             background: lightblue;
+         }
+         .angry{
+             background:black;
+             display:none;
+             width: 1440px;
+             height: 800px;
+             position:relative;
+         }
